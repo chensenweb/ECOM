@@ -37,7 +37,6 @@ $(function(){
 				});				
 		function changeTo(i){ 
 			aA.hide().eq(i).fadeIn();
-			aLi.removeClass("active").eq(i).addClass("active");
 		}
 		
 		})();
